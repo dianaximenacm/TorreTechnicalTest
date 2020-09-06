@@ -635,5 +635,5 @@
   background-color:var(--color-primary) ;
 }
 .swal-button:not([disabled]):hover {
-  background-color:var(--color-black) 
+  background-color:var(--color-black) ;
 }

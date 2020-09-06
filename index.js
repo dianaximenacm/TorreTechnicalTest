@@ -28,7 +28,7 @@ app.get('/', (peticion, respuesta)=>{
     let n = peticion.session.visitas++;
     console.log(`Cantidad Visitas ${n}`)
     // respuesta.end(`<h1>Visita # ${n}</h1>`);
-    respuesta.sendFile(`${__dirname}/views/index.html`)
+    respuesta.sendFile(`${__dirname}/index.html`)
 });
 
 // Crearemos las rutas de nuestra aplicación
