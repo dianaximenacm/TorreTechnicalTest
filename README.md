@@ -4,14 +4,18 @@ Building a feature using data from Torre.
 THIS PROJECT WAS BUILD WITH:
 
 **Html** <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
+
  **Css** <img src="https://img.icons8.com/color/48/000000/css3.png"/><img src="https://img.icons8.com/color/48/000000/media-queries.png"/>
+
 **Javascript** <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+
 **Node Js and Express** <img src="https://img.icons8.com/windows/32/000000/node-js.png"/>
 
 **Jquery**<img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
+
 **Github**<img src="https://img.icons8.com/color/48/000000/git.png"/><img src="https://img.icons8.com/color/48/000000/github-2.png"/>
 
-**The proposal for this test is the creation on a feature "Job Application Feedback-Torre". Which allow to match the user with the job opportunities trought the strengts, showing with cualities you have for the job and which skills your need to develop in order to increase your ranking**
+**The proposal for this test is the creation on a feature "Job Application Feedback-Torre". Which allow to match the user with the job opportunities trought the strengts, showing which qualities you have for the job and skills your need to develop in order to increase your ranking**
 
 **STEP TO RUN LOCALLY:**
 
@@ -32,10 +36,15 @@ THIS PROJECT WAS BUILD WITH:
 **USE**
 
 **In the first empty space write the name of the candidate or the user:** 
+
 ***-Public User Name***
+
 **-Example : publicId	"DianaXimenaChitiva"**
+
 **In the second empty space write the Id number of the oportunity or job:** 
+
 ***Job offer Id***
+
 **-Example: id	"ed8YxErX"**
 
 **So I recomemend for testing the feature look for this strict information**
