@@ -627,3 +627,13 @@
         justify-content: center;
     }
 }
+.swal-button{
+  background-color:var(--color-primary) ;
+}
+
+.swal-button:hover{
+  background-color:var(--color-primary) ;
+}
+.swal-button:not([disabled]):hover {
+  background-color:var(--color-black) 
+}

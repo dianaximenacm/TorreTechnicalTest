@@ -24,16 +24,16 @@
           </header>
           <section id="form-section" class="form-section">
             <h1>Information here</h1>
-            <form action="#" method="post">
+            <form id='form' action="" method="get">
                 <div class="form-field">
                 <label for="fname">Public user name</label>
                 <input type="text" id="fname" name="firstname"required placeholder="Your name..">
                 </div>
                 <div class="form-field">
                 <label for="number-in">Opportunity ID </label>
-                <input type="number" name="number" id="number"required placeholder="Number">
+                <input type="text" name="number" id="fnumber"required placeholder="Number">
                 </div>
-                <button id="submit-button">CALL TO ACTION</button>
+                <button type="button" id="submit-button" onclick="CallCompare()">CALL TO ACTION</button>
             </form>
         </section>
           <div class="section-body">
@@ -47,7 +47,6 @@
                                         <div class="hexchild1"></div>
                                         <div class="hexchild2">
                                           <div><img  id="picture-torre" src="" alt="" srcset="">
-                                            <p>$name</p>
                                         </div>
                                         </div>
                                       </div>
@@ -62,11 +61,7 @@
                     <section class="section result-section">
 
                         <p>These are your strengths related with this$ opportunity</p>
-                        <ul>
-                            <li>
-                                <span class="penta-icon">
-                                <h2 id="#interception"></h2></span>
-                            </li>
+                        <ul id="penta-list-interception">
                         </ul>
                     </section>
         
@@ -77,12 +72,7 @@
                     <section class="section result-section">
 
                         <p>These are the skills that are important to develop for $this opportunity </p>
-                        <ul>
-                            <li>
-                                <span class="penta-icon">
-                                    <h2 id="#difference"></h2>
-                                </span>
-                            </li>
+                        <ul id="penta-list-difference">
                         </ul>
                     </section>
                 </article>

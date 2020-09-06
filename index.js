@@ -41,8 +41,8 @@ app.use(express.json());
 
 // ROUTES
 let data;
-
-request.get('https://torre.bio/api/bios/DianaXimenaChitiva', function(error, body){ 
+username = req.query.userName
+request.get('https://torre.bio/api/bios/' + username, function(error, body){ 
 
 res.json(body);
  
@@ -106,11 +106,16 @@ app.get('/compare', (req, res)=>{
 
     // MIDDLEWARES
     app.use(express.json());
+    console.log(req.query.userName)
+    console.log(req.query.offerId)
+    console.log(req.params)
+    username = req.query.userName
+    offerId = req.query.offerId
     
-    request.get('https://torre.bio/api/bios/DianaXimenaChitiva', function(error, body){ 
+    request.get('https://torre.bio/api/bios/'+username, function(error, body){ 
         user=JSON.parse(body.body);
         //console.log(user)
-        request.get('https://torre.co/api/opportunities/ed8YxErX', function(error,body){
+        request.get('https://torre.co/api/opportunities/'+offerId, function(error,body){
             offer=JSON.parse(body.body);
             user_strengths = []
             user.strengths.forEach(item => {
