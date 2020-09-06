@@ -1,7 +1,7 @@
 # TorreTechnicalTest
 Building a feature using data from Torre.
 
-**THIS PROJECT WAS BUILD WITH:** 
+THIS PROJECT WAS BUILD WITH:
 
 **Html** <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
  **Css** <img src="https://img.icons8.com/color/48/000000/css3.png"/><img src="https://img.icons8.com/color/48/000000/media-queries.png"/>
@@ -18,15 +18,15 @@ Building a feature using data from Torre.
 **for run this feature you must :**
 
 
-**1.Install Node Js** [<img src="https://img.icons8.com/windows/32/000000/node-js.png"/>](https://nodejs.org/es/)
+1.Install **Node Js** Click here for install :[<img src="https://img.icons8.com/windows/32/000000/node-js.png"/>](https://nodejs.org/es/)
 
-**2.Install express framework**  [<img src="https://img.icons8.com/windows/32/000000/node-js.png"/>](https://expressjs.com/es/)
+2.Install **express** framework. Click here for install :[<img src="https://img.icons8.com/windows/32/000000/node-js.png"/>](https://expressjs.com/es/)
 
-**3.Run on console npm install** 
+3.Run on console **npm install** 
 
-**4.Run console "node index.js"** 
+4.Run console **"node index.js"** 
 
-**5.finally go to your browser localhost:8080**
+5.finally go to your browser **localhost:8080**
 
 
 **USE**
