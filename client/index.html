@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://torre.co">
+    <meta property="og:title" content="Torre -Job Application Feedback">
+    <meta property="og:description" content="Know your professional skils acordding to the job opportunities">
     <link rel="stylesheet" href="./css_home/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    <title>Job Application Feedback-Torre</title>
 </head>
 <body>
 
@@ -13,10 +18,10 @@
     <section id="feedback" class="section section-feedback " data-section-theme="dark">
         <div class="container">
           <header class="section-header">
-            <h2 class="section-title">Job Application eedback</h2>
+            <h2 class="section-title">Job Application Feedback</h2>
             <p class="section-tagline">Knowing what you have, recognizing what you need</p>
           </header>
-          <section id="contact-section" class="contact-section">
+          <section id="form-section" class="form-section">
             <h1>Information here</h1>
             <form action="#" method="post">
                 <div class="form-field">
@@ -25,7 +30,7 @@
                 </div>
                 <div class="form-field">
                 <label for="number-in">Opportunity ID </label>
-                <input type="number" name="number" id="number"required placeholder="Enter your opportunity Id here">
+                <input type="number" name="number" id="number"required placeholder="Number">
                 </div>
                 <button id="submit-button">CALL TO ACTION</button>
             </form>
@@ -35,13 +40,14 @@
                 <li class="col-1-3">
                     <article class="card-feedback">
                         <section class="section result-section">
-                            <p>I am </p>
                             <ul>
                                 <li>
                                     <div class="hex">
                                         <div class="hexchild1"></div>
                                         <div class="hexchild2">
-                                          <div><img src="https://starrgate.s3.amazonaws.com/CACHE/images/users/72175f96ddbdd69715fea9cc89e73ee2f6a5e90b/profile_OROSLCF/ac8daf1c7772758074abc944c4918be8.jpg" alt="" srcset=""></div> 
+                                          <div><img src="https://starrgate.s3.amazonaws.com/CACHE/images/users/72175f96ddbdd69715fea9cc89e73ee2f6a5e90b/profile_OROSLCF/ac8daf1c7772758074abc944c4918be8.jpg" alt="" srcset="">
+                                            <p> I am $name</p>
+                                        </div>
                                         </div>
                                       </div>
                                 </li>
@@ -89,7 +95,7 @@
                 <article class="card-feedback">
                     <section class="section result-section">
 
-                        <p>These are the aspect that are important to depelop for $this opportunity </p>
+                        <p>These are the skills that are important to develop for $this opportunity </p>
                         <ul>
                             <li>
                                 <span class=penta-icon>
@@ -123,5 +129,7 @@
           </div>
         </div>
       </section>
+      <script src="./js_home/assets/jquery.min.js"></script>
+      <script src="./js_home/scripts/scripts.js"></script>
 </body>
 </html>
