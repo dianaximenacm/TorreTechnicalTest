@@ -506,9 +506,10 @@
     background-size:28vw 32.36vw;
     margin-left: -19rem;
   }
-  .hex img{
+  .hex #picture-torre{
       border-radius: 2px;
       margin-top: 2em;
+      width: 52%;
   }
   .hex div {
     width:100%;
