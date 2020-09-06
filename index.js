@@ -71,50 +71,15 @@ request.get('https://torre.co/api/opportunities/ed8YxErX', function(error,body){
 });
 
 
-function intersect(a, b) {
-    var t;
-    if (b.length > a.length) t = b, b = a, a = t; // indexOf to loop over shorter
-    return a.filter(function (e) {
-        return b.indexOf(e) > -1;
-    });
-}
-
-function arr_diff (a1, a2) {
-
-    var a = [], diff = [];
-
-    for (var i = 0; i < a1.length; i++) {
-        a[a1[i]] = true;
-    }
-
-    for (var i = 0; i < a2.length; i++) {
-        if (a[a2[i]]) {
-            delete a[a2[i]];
-        } else {
-            a[a2[i]] = true;
-        }
-    }
-
-    for (var k in a) {
-        diff.push(k);
-    }
-
-    return diff;
-}
-
 app.get('/compare', (req, res)=>{
 
     // MIDDLEWARES
     app.use(express.json());
-    console.log(req.query.userName)
-    console.log(req.query.offerId)
-    console.log(req.params)
     username = req.query.userName
     offerId = req.query.offerId
     
     request.get('https://torre.bio/api/bios/'+username, function(error, body){ 
         user=JSON.parse(body.body);
-        //console.log(user)
         request.get('https://torre.co/api/opportunities/'+offerId, function(error,body){
             offer=JSON.parse(body.body);
             user_strengths = []
@@ -125,9 +90,10 @@ app.get('/compare', (req, res)=>{
             offer.strengths.forEach(item => {
                 offer_strengths.push(item.name)
             });
+            // Source: https://medium.com/@alvaro.saburido/set-theory-for-arrays-in-es6-eb2f20a61848
             res.json({
-                'interception': intersect(user_strengths, offer_strengths),
-                'difference': arr_diff(offer_strengths, user_strengths)
+                'interception': offer_strengths.filter(x => user_strengths.includes(x)),
+                'difference': offer_strengths.filter(x => !user_strengths.includes(x))
             })
         });
     });
