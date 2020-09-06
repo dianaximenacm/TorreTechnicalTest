@@ -1,0 +1,23 @@
+{
+  "name": "TorreTechnicalTest",
+  "version": "1.0.0",
+  "description": "Building a feature using data from Torre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianaximenacm/TorreTechnicalTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianaximenacm/TorreTechnicalTest/issues"
+  },
+  "homepage": "https://github.com/dianaximenacm/TorreTechnicalTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

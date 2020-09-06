@@ -6,6 +6,8 @@ $.ajax({
     type : 'GET',
     dataType : 'json',
 
+
+    beforeSend: function(xhr){xhr.setRequestHeader('User-Agent', 'PostmanRuntime/7.26.3');},
     //==== Callbacks
     success : function(json) {
        console.log(json)
