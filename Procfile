@@ -1,1 +1,2 @@
-web: node index.js
+"postinstall": "npm run build",
+"start": "node server.js"
