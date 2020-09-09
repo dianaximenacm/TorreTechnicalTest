@@ -53,13 +53,14 @@ After that you could see you picture and next to it, the skill that you have and
 
 *Extra: If you check in the console,you can find a visits counter feature*
 
+**A link for us to test what I built:  Click here**[<img src="https://img.icons8.com/nolan/64/moleskine.png"/>](https://torrejobapplicationfeedback.herokuapp.com/)**to see a live preview of this project**
+
 
 **A link for us to test what I built:  Click here**[<img src="https://img.icons8.com/nolan/64/moleskine.png"/>](https://github.com/dianaximenacm/TorreTechnicalTest/)**to see a HTML preview of this project**
 
 **My progress log Click here**[<img src="https://img.icons8.com/nolan/64/moleskine.png"/>](https://github.com/dianaximenacm/TorreTechnicalTest/commits/master)**to see teh progress log of this project**
 
 **HTML PREVIEW: Click here**[<img src="https://img.icons8.com/nolan/64/moleskine.png"/>](https://dianaximenacm.github.io/TorreTechnicalTest/)**to see a HTML preview of this project**
-
 
 
 **Made By** Diana Ximena Chitiva *For* Torre Co. 
