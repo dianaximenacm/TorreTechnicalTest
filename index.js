@@ -100,7 +100,6 @@ app.get('/compare', (req, res)=>{
     
 })
 
-
 app.listen(process.env.PORT || 3000, () =>{
     console.log('I´m working right! Yeah')
 });
