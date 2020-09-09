@@ -8,7 +8,7 @@ request = require('request')
 
 // Settings
 app.set('appName','TorreTechnicalTest');
-app.set('port',8080)
+app.set('port',3000)
 app.set('view engine','ejs');
 
 
@@ -101,6 +101,6 @@ app.get('/compare', (req, res)=>{
 })
 
 
-app.listen(app.get('port'), () =>{
+app.listen(process.env.PORT || 3000, () =>{
     console.log('I´m working right! Yeah')
 });
