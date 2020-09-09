@@ -49,7 +49,7 @@ THIS PROJECT WAS BUILD WITH:
 
 **So I recomemend for testing the feature look for this strict information**
 
-After that you could see you picture and next yo it, the skill that you have and you need for this opportunity or job. 
+After that you could see you picture and next to it, the skill that you have and you need for this opportunity or job. 
 
 *Extra: If you check in the console,you can find a visits counter feature*
 
@@ -62,7 +62,7 @@ After that you could see you picture and next yo it, the skill that you have and
 
 
 
-**Made By**Diana Ximena Chitiva *For* Torre Co. 
+**Made By** Diana Ximena Chitiva *For* Torre Co. 
 
 
 
