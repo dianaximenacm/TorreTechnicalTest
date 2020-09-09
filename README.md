@@ -8,7 +8,7 @@ Building a feature using data from Torre:
 
 <img src="https://img.icons8.com/color/48/000000/css3.png"/><img src="https://img.icons8.com/color/48/000000/media-queries.png"/>
  
- **Css and responsive desing** 
+ **Css and Responsive desing** 
 
 <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
 
@@ -27,11 +27,17 @@ Building a feature using data from Torre:
 **Github**
 
 <img src="https://img.icons8.com/nolan/64/heroku.png"/>
+
 **Heroku**
 
 
-
 **The proposal for this test is the creation on a feature "Job Application Feedback-Torre". Which allow to match the user with the job opportunities trought the strengts, showing which qualities you have for the job and skills your need to develop in order to increase your ranking**
+
+
+
+**LIVE PREVIEW:**
+
+**Click here**[<img src="https://img.icons8.com/nolan/64/moleskine.png"/>](https://torrejobapplicationfeedback.herokuapp.com/)**to see a live preview of this project**
 
 **STEP TO RUN LOCALLY:**
 
@@ -69,7 +75,6 @@ After that you could see you picture and next to it, the skill that you have and
 
 *Extra: If you check in the console,you can find a visits counter feature*
 
-**A link for us to test what I built:  Click here**[<img src="https://img.icons8.com/nolan/64/moleskine.png"/>](https://torrejobapplicationfeedback.herokuapp.com/)**to see a live preview of this project**
 
 
 **A link for us to test what I built:  Click here**[<img src="https://img.icons8.com/nolan/64/moleskine.png"/>](https://github.com/dianaximenacm/TorreTechnicalTest/)**to see a HTML preview of this project**
