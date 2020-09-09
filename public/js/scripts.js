@@ -8,7 +8,7 @@ function CallCompare(){
     // e.preventDefault();
     $.ajax({
         //==== Settings 
-        url : 'http://localhost:8080/photo',
+        url : '/photo',
         type : 'GET',
         dataType : 'json',
         data: {userName: document.getElementById('fname').value},
@@ -28,7 +28,7 @@ function CallCompare(){
 
     $.ajax({
         //==== Settings 
-        url : 'http://localhost:8080/compare',
+        url : '/compare',
         data: {
             userName: document.getElementById('fname').value,
             offerId: document.getElementById('fnumber').value 
