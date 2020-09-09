@@ -2,7 +2,6 @@ const { Console } = require('console');
 
 const express = require('express');
 const { response } = require('express');
-//const { request } = require('http');
 app = express();
 request = require('request')
 
@@ -12,7 +11,7 @@ app.set('port',3000)
 app.set('view engine','ejs');
 
 
-    path = require('path'); // Path es uno de los 34 módulos de Node
+    path = require('path'); 
 
 
 app.use(express.static(path.join(__dirname, "/public")));
@@ -27,12 +26,9 @@ app.get('/', (peticion, respuesta)=>{
     peticion.session.visitas || (peticion.session.visitas = 0);
     let n = peticion.session.visitas++;
     console.log(`Cantidad Visitas ${n}`)
-    // respuesta.end(`<h1>Visita # ${n}</h1>`);
     respuesta.sendFile(`${__dirname}/index.html`)
 });
 
-// Crearemos las rutas de nuestra aplicación
-// localhost:8080
 
 app.get('/photo',(req, res)=>{
    
