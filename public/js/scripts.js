@@ -37,6 +37,10 @@ function CallCompare(){
         dataType : 'json',
     
         //==== Callbacks
+        beforeSend: function(xhr){
+            $('#penta-list-interception').html("")
+            $('#penta-list-difference').html("")
+        },
         success : function(json) {
             console.log(json) 
             $.each(json.interception, (i, element) => {

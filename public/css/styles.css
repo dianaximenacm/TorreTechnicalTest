@@ -448,9 +448,12 @@
   .row:last-of-type .hex{
      transform:translateY(100%);
   }
-  .hexchild1:after,.hexchild2::after{
-    
-} 
+
+  @media screen and (min-width: 480px) {
+    .hex {
+       margin-left:-19rem;
+    }
+}
 
 /*  RESULTS  */
 

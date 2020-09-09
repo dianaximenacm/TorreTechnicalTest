@@ -1,19 +1,35 @@
 # TorreTechnicalTest
-Building a feature using data from Torre.
+Building a feature using data from Torre:
 
-THIS PROJECT WAS BUILD WITH:
 
-**Html** <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
+<img src="https://img.icons8.com/color/48/000000/html-5.png"/>
 
- **Css** <img src="https://img.icons8.com/color/48/000000/css3.png"/><img src="https://img.icons8.com/color/48/000000/media-queries.png"/>
+**Html5** 
 
-**Javascript** <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+<img src="https://img.icons8.com/color/48/000000/css3.png"/><img src="https://img.icons8.com/color/48/000000/media-queries.png"/>
+ 
+ **Css and responsive desing** 
 
-**Node Js and Express** <img src="https://img.icons8.com/windows/32/000000/node-js.png"/>
+<img src="https://img.icons8.com/color/48/000000/javascript.png"/>
 
-**Jquery**<img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
+**Javascript** 
 
-**Github**<img src="https://img.icons8.com/color/48/000000/git.png"/><img src="https://img.icons8.com/color/48/000000/github-2.png"/>
+<img src="https://img.icons8.com/windows/32/000000/node-js.png"/>
+
+**Node Js and Express** 
+
+<img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
+
+**Jquery**
+
+<img src="https://img.icons8.com/color/48/000000/git.png"/><img src="https://img.icons8.com/color/48/000000/github-2.png"/>
+
+**Github**
+
+<img src="https://img.icons8.com/nolan/64/heroku.png"/>
+**Heroku**
+
+
 
 **The proposal for this test is the creation on a feature "Job Application Feedback-Torre". Which allow to match the user with the job opportunities trought the strengts, showing which qualities you have for the job and skills your need to develop in order to increase your ranking**
 
