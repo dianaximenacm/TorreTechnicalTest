@@ -29,7 +29,7 @@ Building a feature using data from Torre:
 <img src="https://img.icons8.com/nolan/64/heroku.png"/>
 
 **Heroku**
-
+<img src="https://img.icons8.com/nolan/64/heroku.png"/>
 
 **The proposal for this test is the creation on a feature "Job Application Feedback-Torre". Which allow to match the user with the job opportunities trought the strengts, showing which qualities you have for the job and skills your need to develop in order to increase your ranking**
 
